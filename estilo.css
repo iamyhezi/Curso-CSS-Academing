@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+#descripcion-producto {
+    background: url("banner.jpeg");
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+}
+
+.sección-título {
+    color: #2ddf5c;
+}
+
+#descripcion-producto h1 {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+/* MARGENES
+GANA EL QUE MAYOR MARGEN TENGA POR ELLO ES IMPORTANTE UTILIZAR
+1. (margin-top) o (margin-bottom)
+ */
+
+ /* Ajustar menu */
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+ }
+
+ .main-header > div {
+     display: inline-block;
+     vertical-align: middle;
+ }
+
+ /* Color de uHost y quitar linea inferior */
+ .main-header__brand {
+     color: #0e4f1f;
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 22px;
+ }
+
+  /* Alinear items a la derecha (Paquete, clientes e inicio) */
+ .main-nav {
+     display: inline-block;
+     text-align: right;
+     width: calc(100% - 74px);
+     vertical-align: middle;
+ }
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+ /* Colocar items en una sola linea */
+ .main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+/* Efecto al situar el cursor sobre los items */
+.main-nav__item a:hover, 
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
