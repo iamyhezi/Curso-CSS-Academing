@@ -16,6 +16,12 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 /* CSS APLICADO A TODOS LOS RECUADROS DE LOS PLANES */
 .plan {
     background: #d5ffdc;
