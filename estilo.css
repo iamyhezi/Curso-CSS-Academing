@@ -43,6 +43,8 @@ body {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* BOX-SHADOW Usado para generar sombra en la caja */
+
 .plan__annotation {
     background: white;
     color: #19b84c;
@@ -75,6 +77,27 @@ body {
 
 .plan__feature {
     margin: 8px 0;
+}
+
+/* RENE NO ENTIENDO LA FUNCION DE INHERIT */
+
+/* CURSOR POINTER Hace que el cursor cambie al situarse sobre el boton */
+
+.button {
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
 }
 
 /* h1 {
