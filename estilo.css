@@ -24,6 +24,7 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+/* CSS APLICADO A TODOS LOS RECUADROS DE LOS PLANES */
 .plan {
     background: #d5ffdc;
     text-align: center;
@@ -33,6 +34,15 @@ body {
     width: 30%;
     vertical-align: middle;
 }
+
+/* CSS PLAN RECOMENDADO */
+
+.plan--highlighted {
+    background: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5)
+}
+
 /* h1 {
     font-family: sans-serif;
 } */
@@ -43,6 +53,7 @@ GANA EL QUE MAYOR MARGEN TENGA POR ELLO ES IMPORTANTE UTILIZAR
  */
 
  /* Ajustar menu */
+
 .main-header {
     width: 100%;
     background: #2ddf5c;
