@@ -7,7 +7,7 @@
 }
 
 .sección-título {
-    color: #292929;
+    color: #333333;
     text-align: center;
 }
 
@@ -68,6 +68,7 @@
     display: inline-block;
     width: 30%;
     vertical-align: middle;
+    border-radius: 8px;
 }
 
 /* CSS PLAN RECOMENDADO */
@@ -113,6 +114,10 @@
 .plan__feature {
     color: white;
     margin: 8px 0;
+}
+
+.parrafo-definicion {
+    color: white;
 }
 
 #key-features {
