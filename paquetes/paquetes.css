@@ -17,6 +17,7 @@ main {
     margin: 16px 0;
     border: 4px solid #0e4f1f;
     border-left: none;
+    position: relative;
 }
 
 /* --------Generar recuadro con BORDE ACTIVO al pasar el cursor por encima del mismo-------- */
@@ -38,6 +39,16 @@ main {
     color: inherit;
     display: block;
     padding: 32px;
+}
+
+/* Que ejecuta POSITION: FIXED */
+
+.package__badge{
+    position: absolute;
+    top: 0;
+    left: 400px;
+    margin: 20px;
+
 }
 
 .package__subtitle {
