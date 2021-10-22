@@ -23,6 +23,13 @@ main {
 /* ------------------OJO--------------- */
 /* Quitar subrayado, color pre-determinado del texto */
 
+.background {
+    background: url(/paquetes/imagenes/banner-portafolio.jpg);
+    width: 100%;
+    height: 100%;
+    position: fixed
+}
+
 .package a {
     text-decoration: none;
     color: inherit;
