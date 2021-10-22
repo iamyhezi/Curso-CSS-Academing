@@ -38,9 +38,14 @@ body {
     outline: none;
 }
 
+/* Barra de MENU constante al deslizar (Ajustar top y left y POSITION de MAIN-HEADER para hacer cambio */
+
 /* Posición de YHEZ STUDIO */
 .main-header {
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     background: black;
     padding: 12px 40px;
     text-align: center;

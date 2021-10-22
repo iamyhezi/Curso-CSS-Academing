@@ -19,6 +19,8 @@
     margin-top: 100px;
     margin-right: 40px;
     margin-bottom: 0px;
+    float: right;
+    text-align: right;
 }
 
 .descripcion-subtitulo {
@@ -29,6 +31,8 @@
     margin-top: 10px;
     margin-right: 40px;
     margin-bottom: 0px;
+    float: right;
+    text-align: right;
 }
 
 .button-titulo {
@@ -52,6 +56,10 @@
 } */
 
 /* ---------------BODY----------------- */
+
+.clear {
+    clear: both;
+}
 
 #estudio {
     width: 30%;
