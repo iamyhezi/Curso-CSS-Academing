@@ -41,7 +41,6 @@
     border-radius: 18px;
     font-weight: bold;
     cursor: pointer;
-    text-align: right;
 }
 
 /* RENE ME PODRIAS AYUDAR CON LA FORMA CORRECTA DE ALINEAR UN BOTON A LA DERECHA (SE QUE ESTA NO ES) */
@@ -52,6 +51,46 @@
     margin-top: 2%;
     margin-left: 83%;
 } */
+
+/* ---------------BODY----------------- */
+
+#estudio {
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 120px;
+}
+
+.estudio-pre-titulo {
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.estudio-titulo {
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+
+.estudio-titulo-2 {
+    margin-top: 0%;
+}
+
+.estudio-parrafo {
+    font-weight: 100;
+}
+
+.estudio-boton {
+    background-color: #e63958;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #e63958;
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+}
 
 .plan__list {
     width: 80%;
