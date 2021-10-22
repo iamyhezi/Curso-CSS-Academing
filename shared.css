@@ -41,6 +41,7 @@ body {
 /* Barra de MENU constante al deslizar (Ajustar top y left y POSITION de MAIN-HEADER para hacer cambio */
 
 /* Posición de YHEZ STUDIO */
+/* Z-INDEX para ajustar BANNER junto a BACKGROUNG en paquetes  */
 .main-header {
     width: 100%;
     position: fixed;
@@ -48,7 +49,7 @@ body {
     left: 0;
     background: black;
     padding: 12px 40px;
-    z-index: 0;
+    z-index: 1;
     text-align: center;
  }
 
