@@ -14,20 +14,22 @@ body {
 /* BOTON ELEGIR PLAN */
 
 .button {
-    background-color: #0e4f1f;
+    background-color: #e63958;
     color: white;
     font: inherit;
-    border: 1.5px solid #0e4f1f;
+    width: 140px;
+    border: 1.5px none;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 18px;
     font-weight: bold;
     cursor: pointer;
 }
 
+
 .button:hover,
 .button:active {
     background: white;
-    color: #0e4f1f;
+    color: #e63958;
 }
 
 /* Quitar borde azul pre-establecido */
