@@ -11,6 +11,8 @@ body {
 
 /* CURSOR POINTER Hace que el cursor cambie al situarse sobre el boton */
 
+/* BOTON ELEGIR PLAN */
+
 .button {
     background-color: #0e4f1f;
     color: white;
@@ -34,9 +36,10 @@ body {
     outline: none;
 }
 
+/* Posición de YHEZ STUDIO */
 .main-header {
     width: 100%;
-    background: #2ddf5c;
+    background: black;
     padding: 8px 16px;
  }
 
@@ -47,23 +50,23 @@ body {
 
  /* Color de uHost y quitar linea inferior */
  .main-header__brand {
-     color: #0e4f1f;
+     color: #ffffff;
      text-decoration: none;
-     font-weight: bold;
-     font-size: 22px;
+     font-weight: 200;
+     font-size: 20px;
  }
 
   /* Alinear items a la derecha (Paquete, clientes e inicio) */
  .main-nav {
      display: inline-block;
      text-align: right;
-     width: calc(100% - 74px);
+     width: calc(90% - 70px);
      vertical-align: middle;
  }
 
 .main-nav__items {
     margin: 0;
-    padding: 0;
+    padding: 0p;
     list-style: none;
 }
  
@@ -75,24 +78,27 @@ body {
 
 .main-nav__item a {
     text-decoration: none;
-    color: #0e4f1f;
-    font-weight: bold;
+    color: #ffffff;
+    font-weight: 100;
     padding: 3px 0;
 }
 
 /* Efecto al situar el cursor sobre los items */
 .main-nav__item a:hover, 
 .main-nav__item a:active {
-    color: white;
-    border-bottom: 5px solid white;
+    color: #a7a7a7;
+    /* border-bottom: 5px solid white; */
 }
 
 .main-nav__item--cta a {
     color: white;
-    background: #ff1b68;
+    /* background: #E63958;
     padding: 8px 16px;
-    border-radius: 8px;
+    border-radius: 8px; */
 }
+
+/* ---------------CSS SITIO NUEVO-------------- */
+
 
 /* ----------------CSS FOOTER----------------- */
 
