@@ -61,11 +61,23 @@
     clear: both;
 }
 
-#estudio {
+/* #estudio {
     width: 30%;
     margin-top: 100px;
     margin-left: 200px;
     margin-bottom: 120px;
+} */
+
+.creativo {
+    width: 100vw;
+    height: 60vh;
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+}
+.creativo__contenedor {
+    width: 30vw;
+    padding: 2rem;
 }
 
 .estudio-pre-titulo {
@@ -99,45 +111,51 @@
     width: 150px;
 }
 
-#personal .personal-contenedor {
+.personal {
+    width: 100vw;
+    height: 60vh;
+    padding: 10rem;
     background-color: #f4f4f4;
-    height: 450px;
-    width: 100%;
+    display: flex;
+    align-items: center;
     margin-bottom: 100px;
 }
 
-
-.personal-pre-titulo {
-    font-weight: 100;
-    padding-top: 100px;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-bottom: 30px;
+.personal__contenedor {
+    width: 30vw;
+    padding: 2rem;
 }
 
-.personal-titulo {
-    font-weight: 400;
+.perfil-pre-titulo {
+    font-weight: 100;
+    /* margin-top: 100px;
     margin-left: 200px;
+    margin-bottom: 30px; */
+}
+
+.perfil-titulo {
+    font-weight: 400;
+    /* margin-left: 200px; */
     margin-bottom: 0%;
 }
 
-.personal-titulo-2 {
+.perfil-titulo-2 {
     margin-top: 0%;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 
-.personal-parrafo {
+.perfil-parrafo {
     font-weight: 100;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 
-.personal-boton {
+.perfil-boton {
     background-color: #e63958;
     color: white;
     font: inherit;
     border: 1.5px solid #e63958;
     margin-top: 30px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     padding: 8px;
     border-radius: 18px;
     font-weight: bold;
