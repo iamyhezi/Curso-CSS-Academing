@@ -6,6 +6,7 @@ main {
 
 .background {
     background: url(/portafolio/imagenes/banner-portafolio.jpg);
+    filter: grayscale(20%);
     width: 100%;
     height: 100%;
     position: fixed;

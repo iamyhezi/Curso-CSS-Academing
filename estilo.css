@@ -1,7 +1,7 @@
 
 #descripcion-producto {
     background: linear-gradient(to top, rgba(11, 12, 15, 0.6) 10%, transparent), 
-    url("banner.jpg") left 10% bottom 20%/cover no-repeat border-box padding-box;,
+    url("banner.jpg") left 10% bottom 20%/cover no-repeat border-box padding-box;
     #0B1128
     /* background-image: url("banner.jpg");
     background-size: cover  ;
@@ -20,6 +20,18 @@
     /* border: 5px dashed red; */
     position: relative;
 }
+
+/* -------------------FILTROS------------------
+div {
+    background: brown;
+    filter: blur(10px)
+    filter: contrast(200%)
+    filter: grayscale(80%)
+    filter: hue-rotate(90deg)
+    filter: invert(75%)
+    filter: opacity(25%)
+    filter: saturate(30%)
+} */
 
 /* BACKGROUND-REPEAT: X
 BACKGROUND-REPEAT: Y
