@@ -14,6 +14,7 @@
 
 .proyecto__image-container {
     width: 60%; 
+    max-width: 800px;
     display: inline-block;
     vertical-align: middle;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
