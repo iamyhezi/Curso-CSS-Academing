@@ -319,6 +319,54 @@ BACKGROUND-POSITION: 20PX */
     font-family: sans-serif;
 } */
 
+.modal {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0,0,0,o.5);
+}
+
+.modal__title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+    text-align: center;
+}
+
+.modal__action {
+    border: 1px solid #ff1b68;
+    background: #ff1b68;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.modal__action:hover,
+.modal__action:active {
+    background: #ccc;
+    border-color: #ccc;
+}
+
+.modal__action--negative {
+    background: #0B1128;
+    border-color: #0B1128;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+    background: red;
+    border-color: red;
+}
 /* MARGENES
 GANA EL QUE MAYOR MARGEN TENGA POR ELLO ES IMPORTANTE UTILIZAR
 1. (margin-top) o (margin-bottom)
