@@ -15,19 +15,27 @@ body {
     z-index: 100;
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
+
 
 /* RENE NO ENTIENDO LA FUNCION DE INHERIT */
 
+
 /* CURSOR POINTER Hace que el cursor cambie al situarse sobre el boton */
+
 
 /* BOTON ELEGIR PLAN */
 
+
 /* Barra de MENU constante al deslizar (Ajustar top y left y POSITION de MAIN-HEADER para hacer cambio */
 
+
 /* Posición de YHEZ STUDIO */
+
+
 /* Z-INDEX para ajustar BANNER junto a BACKGROUNG en paquetes  */
+
 .main-header {
     width: 100%;
     position: fixed;
@@ -37,74 +45,79 @@ body {
     padding: 0.5rem 2.5rem;
     z-index: 1;
     /* text-align: center; */
- }
+}
 
- .main-header > div {
-     display: inline-block;
-     vertical-align: middle;
- }
+.main-header>div {
+    display: inline-block;
+    vertical-align: middle;
+}
 
- .toggle-button {
-     width: 3rem;
-     background: transparent;
-     border: none;
-     cursor: pointer;
-     padding-top: 0;
-     padding-bottom: 0;
-     vertical-align: middle;
-    }
+.toggle-button {
+    width: 3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+}
 
 .toggle-button:focus {
     outline: none;
 }
- .toggle-button__bar {
-     width: 100%;
-     height: 0.2rem;
-     background: white;
-     display: block;
-     margin: 0.6rem 0;
- }
 
- /* Color de uHost y quitar linea inferior */
+.toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: white;
+    display: block;
+    margin: 0.6rem 0;
+}
 
- .main-header__brand {
-     color: #ffffff;
-     text-decoration: none;
-     font-weight: 200;
-     font-size: 1.5rem;
+
+/* Color de uHost y quitar linea inferior */
+
+.main-header__brand {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 1.5rem;
     height: 1.8rem;
-    width:auto;
+    width: auto;
     display: inline-block;
     vertical-align: middle;
- }
+}
 
- .main-header__brand img {
+.main-header__brand img {
     height: 100%;
     width: 100%;
- }
+}
 
-  /* Alinear items a la derecha (Paquete, clientes e inicio) */
- 
- .main-nav {
-     display: inline-block;
-     text-align: right;
-     width: calc(100% - 122px);
-     vertical-align: middle;
- }
+
+/* Alinear items a la derecha (Paquete, clientes e inicio) */
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 122px);
+    vertical-align: middle;
+}
 
 .main-nav__items {
     margin: 0;
     padding: 0p;
     list-style: none;
 }
- 
- /* Colocar items en una sola linea */
- .main-nav__item {
+
+
+/* Colocar items en una sola linea */
+
+.main-nav__item {
     display: inline-block;
     margin: 0 1rem;
 }
 
-.main-nav__item a, 
+.main-nav__item a,
 .mobile-nav__item a {
     text-decoration: none;
     color: white;
@@ -112,8 +125,10 @@ body {
     padding: 0.2rem 0;
 }
 
+
 /* Efecto al situar el cursor sobre los items */
-.main-nav__item a:hover, 
+
+.main-nav__item a:hover,
 .main-nav__item a:active {
     color: #a7a7a7;
     background: white;
@@ -135,6 +150,7 @@ body {
     color: #a7a7a7;
     border: none;
 }
+
 
 /* ---------------CSS SITIO NUEVO-------------- */
 
@@ -158,6 +174,7 @@ body {
     display: inline-block;
     margin: 0 1rem;
 }
+
 
 /* OJO Quitar SUBRAYADO al texto */
 
@@ -195,7 +212,6 @@ body {
     margin: 1rem 0;
 }
 
-
 .mobile-nav__item a {
     font-size: 1.5rem;
 }
@@ -212,12 +228,12 @@ body {
     cursor: pointer;
 }
 
-
 .button:hover,
 .button:active {
     background: white;
     color: #e63958;
 }
+
 
 /* Quitar borde azul pre-establecido */
 
