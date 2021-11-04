@@ -24,31 +24,6 @@ body {
 
 /* BOTON ELEGIR PLAN */
 
-.button {
-    background-color: #e63958;
-    color: white;
-    font: inherit;
-    width: 140px;
-    border: 1.5px none;
-    padding: 8px;
-    border-radius: 18px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-
-.button:hover,
-.button:active {
-    background: white;
-    color: #e63958;
-}
-
-/* Quitar borde azul pre-establecido */
-
-.button:focus {
-    outline: none;
-}
-
 /* Barra de MENU constante al deslizar (Ajustar top y left y POSITION de MAIN-HEADER para hacer cambio */
 
 /* Posición de YHEZ STUDIO */
@@ -59,7 +34,7 @@ body {
     top: 0;
     left: 0;
     background: black;
-    padding: 8px 40px;
+    padding: 0.5rem 2.5rem;
     z-index: 1;
     /* text-align: center; */
  }
@@ -74,8 +49,8 @@ body {
      color: #ffffff;
      text-decoration: none;
      font-weight: 200;
-     font-size: 20px;
-    height: 30px;
+     font-size: 1.5rem;
+    height: 1.8rem;
     width:100%;
     display: inline-block;
  }
@@ -102,14 +77,14 @@ body {
  /* Colocar items en una sola linea */
  .main-nav__item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-nav__item a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 100;
-    padding: 3px 0;
+    padding: 0.2rem 0;
 }
 
 /* Efecto al situar el cursor sobre los items */
@@ -133,8 +108,8 @@ body {
 
 .main-footer {
     background: black;
-    padding: 32px;
-    margin-top: 48px;
+    padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -146,7 +121,7 @@ body {
 
 .main-footer__link {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 /* OJO Quitar SUBRAYADO al texto */
@@ -159,4 +134,29 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc
+}
+
+.button {
+    background-color: #e63958;
+    color: white;
+    font: inherit;
+    width: 140px;
+    border: 1.5px none;
+    padding: 8px;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #e63958;
+}
+
+/* Quitar borde azul pre-establecido */
+
+.button:focus {
+    outline: none;
 }
