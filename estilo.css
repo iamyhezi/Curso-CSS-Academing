@@ -14,7 +14,7 @@
     /* background-image: linear-gradient(180deg, red, blue, green, yellow); */
     /* background-image: linear-gradient(180deg, red, transparent); */
     /* background-image: radial-gradient(ellipse farshest-side at 20% 50%, red, transparent); */
-    width: 100vh;
+    width: 100vw;
     height: 600px;
     padding: 2.75rem;
     /* border: 5px dashed red; */
