@@ -49,6 +49,7 @@ BACKGROUND-POSITION: 20PX */
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 100px;
+    position: relative;
     text-align: right;
     margin-top: 100px;
     margin-right: 40px;
@@ -335,3 +336,8 @@ GANA EL QUE MAYOR MARGEN TENGA POR ELLO ES IMPORTANTE UTILIZAR
 ------VIEWPORT Y FONT SIZE------
 porcent
  */
+
+ /* -------------POSICIONES-------------
+ Viewport---position:fixed;
+ Ancestor---position:absolute;
+  */
