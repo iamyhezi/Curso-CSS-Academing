@@ -50,7 +50,8 @@ body {
     background: black;
     padding: 12px 40px;
     z-index: 1;
-    text-align: center;
+    display: inline-block;
+    /* text-align: center; */
  }
 
  .main-header > div {
@@ -64,13 +65,21 @@ body {
      text-decoration: none;
      font-weight: 200;
      font-size: 20px;
+    height: 100px;
+    width:300px;
+    display: inline-block;
+ }
+
+ .main-header__brand img {
+    height: 100%;
+    width: 100%;
  }
 
   /* Alinear items a la derecha (Paquete, clientes e inicio) */
  .main-nav {
      display: inline-block;
      text-align: right;
-     width: calc(90% - 70px);
+     width: calc(100% - 74px);
      vertical-align: middle;
  }
 
