@@ -120,7 +120,7 @@ body {
 .main-nav__item a,
 .mobile-nav__item a {
     text-decoration: none;
-    color: white;
+    color: #a7a7a7;
     font-weight: 100;
     padding: 0.2rem 0;
 }
@@ -130,24 +130,26 @@ body {
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
-    color: #a7a7a7;
-    background: white;
+    color: white;
+    background: black;
     /* border-bottom: 5px solid white; */
 }
 
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
-    color: white;
-    /* background: #e63958;
+    color: #a7a7a7;
+    background: black;
     padding: 0.5rem 1rem;
-    border-radius: 8px; */
+    border-radius: 18px;
 }
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active,
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
-    color: #a7a7a7;
+    color: white;
+    border-radius: 18px;
+    cursor: pointer;
     border: none;
 }
 
@@ -239,4 +241,8 @@ body {
 
 .button:focus {
     outline: none;
+}
+
+.open {
+    display: block !important;
 }
