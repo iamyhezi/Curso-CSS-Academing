@@ -119,12 +119,11 @@ BACKGROUND-POSITION: 20PX */
     padding: 2rem;
 }
 
-
-/* @media screen and ( max-width: 50rem) {
+@media screen and ( max-width: 20rem) {
     .creativo__contenedor {
-        width: 40%;
+        width: 20%;
     }
-} */
+}
 
 .estudio-pre-titulo {
     font-weight: 100;
@@ -172,11 +171,12 @@ BACKGROUND-POSITION: 20PX */
     padding: 2rem;
 }
 
-@media screen and ( max-width: 50rem) {
+
+/* @media screen and ( max-width: 50rem) {
     .personal__contenedor {
         width: 90%;
     }
-}
+} */
 
 .perfil-pre-titulo {
     font-weight: 100;
@@ -215,6 +215,35 @@ BACKGROUND-POSITION: 20PX */
     width: 150px;
 }
 
+.portafolio {
+    width: 100vw;
+    height: 60vh;
+    padding: 10rem;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6.2rem;
+}
+
+.portafolio__contenedor {
+    width: 30rem;
+    padding: 2rem;
+}
+
+.portafolio-pre-titulo {
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.portafolio-titulo {
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+
+.portafolio-titulo-2 {
+    margin-top: 0%;
+}
+
 
 /* ----------------------PREGUNTAR COMO CENTRAR VERTICALMENTE -----------------------------*/
 
@@ -242,6 +271,7 @@ BACKGROUND-POSITION: 20PX */
     display: inline-block;
     vertical-align: middle;
     border-radius: 30px;
+    margin-bottom: 6.2rem;
 }
 
 @media screen and ( max-width: 60rem) {
