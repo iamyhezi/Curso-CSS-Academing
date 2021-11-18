@@ -1,8 +1,5 @@
-
 #descripcion-producto {
-    background: linear-gradient(to top, rgba(11, 12, 15, 0.6) 10%, transparent), 
-    url("banner.jpg") left 10% bottom 20%/cover no-repeat border-box padding-box,
-    #0B1128;
+    background: linear-gradient(to top, rgba(11, 12, 15, 0.6) 10%, transparent), url("banner.jpg") left 10% bottom 20%/cover no-repeat border-box padding-box, #0B1128;
     /* background-image: url("banner.jpg");
     background-size: cover  ;
     background-position: left 10% bottom 20%; */
@@ -21,6 +18,7 @@
     position: relative;
 }
 
+
 /* -------------------FILTROS------------------
 div {
     background: brown;
@@ -32,6 +30,7 @@ div {
     filter: opacity(25%)
     filter: saturate(30%)
 } */
+
 
 /* BACKGROUND-REPEAT: X
 BACKGROUND-REPEAT: Y
@@ -81,7 +80,9 @@ BACKGROUND-POSITION: 20PX */
     cursor: pointer;
 }
 
+
 /* RENE ME PODRIAS AYUDAR CON LA FORMA CORRECTA DE ALINEAR UN BOTON A LA DERECHA (SE QUE ESTA NO ES) */
+
 
 /* .button-titulo {
     display: flexbox;
@@ -90,11 +91,13 @@ BACKGROUND-POSITION: 20PX */
     margin-left: 83%;
 } */
 
+
 /* ---------------BODY----------------- */
 
 .clear {
     clear: both;
 }
+
 
 /* #estudio {
     width: 30%;
@@ -110,10 +113,18 @@ BACKGROUND-POSITION: 20PX */
     display: flex;
     align-items: center;
 }
+
 .creativo__contenedor {
-    width: 30vw;
+    width: 30rem;
     padding: 2rem;
 }
+
+
+/* @media screen and ( max-width: 50rem) {
+    .creativo__contenedor {
+        width: 40%;
+    }
+} */
 
 .estudio-pre-titulo {
     font-weight: 100;
@@ -157,8 +168,14 @@ BACKGROUND-POSITION: 20PX */
 }
 
 .personal__contenedor {
-    width: 30vw;
+    width: 30rem;
     padding: 2rem;
+}
+
+@media screen and ( max-width: 50rem) {
+    .personal__contenedor {
+        width: 90%;
+    }
 }
 
 .perfil-pre-titulo {
@@ -198,7 +215,9 @@ BACKGROUND-POSITION: 20PX */
     width: 150px;
 }
 
+
 /* ----------------------PREGUNTAR COMO CENTRAR VERTICALMENTE -----------------------------*/
+
 #planes {
     height: auto;
 }
@@ -209,17 +228,28 @@ BACKGROUND-POSITION: 20PX */
     text-align: center;
 }
 
+
 /* CSS APLICADO A TODOS LOS RECUADROS DE LOS PLANES */
+
 .plan {
-    background: #494949;
+    background-color: #494949;
+    display: inline-block;
     text-align: center;
+    width: 30%;
     padding: 2rem;
+    box-sizing: border-box;
     margin: 2rem;
     display: inline-block;
-    width: 30%;
     vertical-align: middle;
     border-radius: 30px;
 }
+
+@media screen and ( max-width: 60rem) {
+    .plan {
+        width: 90%;
+    }
+}
+
 
 /* CSS PLAN RECOMENDADO */
 
@@ -228,6 +258,7 @@ BACKGROUND-POSITION: 20PX */
     color: white;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
 
 /* BOX-SHADOW Usado para generar sombra en la caja */
 
@@ -289,7 +320,10 @@ BACKGROUND-POSITION: 20PX */
     text-align: center;
 }
 
+
 /* Convertimos en elementos "inline-block" para ser más precisos */
+
+
 /* VERTICAL-ALIGN TOP Ajusta el texto con el borde superior */
 
 .key-feature {
@@ -315,6 +349,7 @@ BACKGROUND-POSITION: 20PX */
     font-size: 1.2rem;
 }
 
+
 /* h1 {
     font-family: sans-serif;
 } */
@@ -329,7 +364,7 @@ BACKGROUND-POSITION: 20PX */
     background: white;
     padding: 1rem;
     border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px rgba(0,0,0,o.5);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, o.5);
 }
 
 .modal__title {
@@ -367,14 +402,18 @@ BACKGROUND-POSITION: 20PX */
     background: red;
     border-color: red;
 }
+
+
 /* MARGENES
 GANA EL QUE MAYOR MARGEN TENGA POR ELLO ES IMPORTANTE UTILIZAR
 1. (margin-top) o (margin-bottom)
  */
 
- /* Ajustar menu */
 
- /* ---------------------- UNIDADES Y MEDIDAS -----------------
+/* Ajustar menu */
+
+
+/* ---------------------- UNIDADES Y MEDIDAS -----------------
  -------VIEWPORT-------
  vh
  vw
@@ -387,7 +426,8 @@ GANA EL QUE MAYOR MARGEN TENGA POR ELLO ES IMPORTANTE UTILIZAR
 porcent
  */
 
- /* -------------POSICIONES-------------
+
+/* -------------POSICIONES-------------
  Viewport---position:fixed;
  Ancestor---position:absolute;
   */

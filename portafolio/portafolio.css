@@ -3,6 +3,7 @@
     margin: 3rem 0;
 }
 
+
 /* .proyecto__list {
     width: 80%;
     margin: auto;
@@ -13,11 +14,21 @@
 }
 
 .proyecto__image-container {
-    width: 60%; 
+    width: 100%;
     max-width: 800px;
     display: inline-block;
+    margin: 2rem;
     vertical-align: middle;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.proyecto__image-container {
+    width: 100%;
+    max-width: 800px;
+    display: inline-block;
+    margin: 0rem;
+    vertical-align: middle;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .proyecto__image {
@@ -28,18 +39,21 @@
 .proyecto__info {
     text-align: right;
     padding: 0.9rem;
+    margin: 2rem;
     display: inline-block;
     vertical-align: middle;
-    width: 30%;
+    width: 100vh;
 }
+
 
 /* #diseño-2 .proyecto {
     text-align: right;
 } */
 
-#diseño-2 .proyecto__info {
+#diseño-2 {
     text-align: right;
 }
+
 
 /* #diseño-2 .proyecto__image-container {
     margin-left: calc(90% - 60px);
@@ -47,7 +61,7 @@
 
 .proyecto__name {
     margin: 0.2rem;
-    color:  #ff5454;
+    color: #ff5454;
     font-size: 2rem;
 }
 
@@ -64,12 +78,13 @@
 
 .proyecto__subtitle a:hover,
 .proyecto__subtitle a:active {
-    color:  #ff5454;
+    color: #ff5454;
 }
 
 .proyecto__text {
     margin: 0.2rem;
 }
+
 
 /* -------OJO--------
 REM es una medida ligeramente mas pequeña que EM */
