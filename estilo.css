@@ -215,19 +215,19 @@ BACKGROUND-POSITION: 20PX */
     width: 150px;
 }
 
+.master_portafolio {
+    background-color: #f4f4f4;
+    padding-bottom: 6rem;
+}
+
 .portafolio {
     width: 100vw;
-    height: 60vh;
-    padding: 10rem;
-    background-color: #f4f4f4;
-    display: flex;
-    align-items: center;
-    margin-bottom: 6.2rem;
+    padding: 6rem 10rem;
+    display: inline-block;
 }
 
 .portafolio__contenedor {
-    width: 30rem;
-    padding: 2rem;
+    max-width: 100%;
 }
 
 .portafolio-pre-titulo {
@@ -242,6 +242,16 @@ BACKGROUND-POSITION: 20PX */
 
 .portafolio-titulo-2 {
     margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+.contenedor__imagen {
+    display: inline-block;
+    width: 40%;
+}
+
+.portafolio__imagen img {
+    width: 100%;
 }
 
 
