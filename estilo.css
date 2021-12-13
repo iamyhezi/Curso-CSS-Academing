@@ -12,8 +12,8 @@
     /* background-image: linear-gradient(180deg, red, transparent); */
     /* background-image: radial-gradient(ellipse farshest-side at 20% 50%, red, transparent); */
     width: 100vw;
-    height: 600px;
-    padding: 2.75rem;
+    height: 800px;
+    /* padding: 2.75rem; */
     /* border: 5px dashed red; */
     position: relative;
 }
@@ -41,20 +41,26 @@ BACKGROUND-POSITION: 20PX */
 
 .sección-título {
     color: #333333;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.sección {
+    display: flex;
+    justify-content: center;
 }
 
 #descripcion-producto h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 6.2rem;
-    position: relative;
-    text-align: right;
-    margin-top: 6.2rem;
-    margin-right: 2.5rem;
-    margin-bottom: 0;
-    float: right;
-    text-align: right;
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    /* position: relative; */
+    /* text-align: right; */
+    /* margin-top: 6.2rem; */
+    /* margin-right: 2.5rem; */
+    /* margin-bottom: 0; */
+    /* float: right; */
+    /* text-align: right; */
 }
 
 .descripcion-subtitulo {
@@ -62,10 +68,10 @@ BACKGROUND-POSITION: 20PX */
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     text-align: right;
-    margin-top: 0.6rem;
-    margin-right: 2.5rem;
-    margin-bottom: 0;
-    float: right;
+    /* margin-top: 0.6rem; */
+    /* margin-right: 2.5rem;
+    margin-bottom: 0; */
+    /* float: right; */
     text-align: right;
 }
 
@@ -95,7 +101,21 @@ BACKGROUND-POSITION: 20PX */
 /* ---------------BODY----------------- */
 
 .clear {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.clear {
     clear: both;
+}
+
+.clear_title {
+    text-align: center;
+    flex-direction: column;
+    padding: 0 6rem;
 }
 
 
@@ -108,7 +128,6 @@ BACKGROUND-POSITION: 20PX */
 
 .creativo {
     width: 100vw;
-    height: 60vh;
     padding: 10rem;
     display: flex;
     align-items: center;
@@ -158,12 +177,12 @@ BACKGROUND-POSITION: 20PX */
 
 .personal {
     width: 100vw;
-    height: 60vh;
+    height: auto;
     padding: 10rem;
     background-color: #f4f4f4;
     display: flex;
     align-items: center;
-    margin-bottom: 6.2rem;
+    /* margin-bottom: 6.2rem; */
 }
 
 .personal__contenedor {
@@ -267,19 +286,50 @@ BACKGROUND-POSITION: 20PX */
 /* ----------------------PREGUNTAR COMO CENTRAR VERTICALMENTE -----------------------------*/
 
 #planes {
-    height: auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .plan__list {
-    width: 80%;
-    margin: auto;
-    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan {
+    background-color: #494949;
+    flex-basis: 100%;
+    margin: 2rem;
+    padding: 2rem;
+    max-width: 24rem;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    transition: all .2s ease-out;
+    /* max-width: 25rem;
+    min-width: 25rem; */
 }
 
 
 /* CSS APLICADO A TODOS LOS RECUADROS DE LOS PLANES */
 
-.plan {
+
+/* ------------- CAMBIO DE CODIGO ----------- */
+
+
+/* .plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+} */
+
+
+/* .plan {
     background-color: #494949;
     display: inline-block;
     text-align: center;
@@ -291,7 +341,7 @@ BACKGROUND-POSITION: 20PX */
     vertical-align: middle;
     border-radius: 30px;
     margin-bottom: 6.2rem;
-}
+} */
 
 @media screen and ( max-width: 60rem) {
     .plan {
@@ -302,23 +352,24 @@ BACKGROUND-POSITION: 20PX */
 
 /* CSS PLAN RECOMENDADO */
 
-.plan--highlighted {
+
+/* .plan--highlighted {
     background: #292929;
     color: white;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
+} */
 
 
 /* BOX-SHADOW Usado para generar sombra en la caja */
 
-.plan__annotation {
+
+/* .plan__annotation {
     background: white;
     color: #e63958;
     padding: 0.5rem;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2rem;
-    /* 18px */
-}
+} */
 
 .plan__title {
     color: white;
@@ -349,6 +400,12 @@ BACKGROUND-POSITION: 20PX */
 
 .parrafo-definicion {
     color: white;
+}
+
+.plan:hover {
+    transform: scale(1.06);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, .2);
+    background-color: #343434;
 }
 
 #key-features {

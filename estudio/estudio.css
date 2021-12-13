@@ -2,6 +2,7 @@ main {
     padding-top: 2rem;
 }
 
+
 /* Ajustar BANNER de la pagina PORTAFOLIO */
 
 .background {
@@ -21,18 +22,25 @@ main {
     position: relative;
 }
 
+
 /* --------Generar recuadro con BORDE ACTIVO al pasar el cursor por encima del mismo-------- */
+
+
 /* Uso de !IMPORTANT para que el borde de todos los recuadros sea rojo porque al mover uno de ellos, el recuadro de en medio presentaba inconvenientes */
 
 .package:hover,
 .package:active {
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-color: #ff5454 !important;
 }
 
+
 /* border-color: #ff5454; */
 
+
 /* ------------------OJO--------------- */
+
+
 /* Quitar subrayado, color pre-determinado del texto */
 
 .package a {
@@ -41,6 +49,7 @@ main {
     display: block;
     padding: 2rem;
 }
+
 
 /* Que ejecuta POSITION: FIXED */
 
@@ -53,7 +62,6 @@ main {
     color: white;
     background: #ff5454;
     padding: 0.5rem;
-
 }
 
 .package__subtitle {
@@ -67,6 +75,7 @@ main {
     color: #0e4f1f;
     background: white;
 }
+
 
 /* CLEAT BOTH permite que al utilizar FLOAT los elementos no se situen uno encima de otro */
 
@@ -85,6 +94,7 @@ main {
     border-left: 4px solid #0e4f1f;
     text-align: right;
 }
+
 
 /* #free:hover,
 #free:active {
