@@ -1,5 +1,9 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #descripcion-producto {
-    background: linear-gradient(to top, rgba(11, 12, 15, 0.6) 10%, transparent), url("banner.jpg") left 10% bottom 20%/cover no-repeat border-box padding-box, #0B1128;
+    background: linear-gradient(to top, rgba(0, 22, 40, .6) 10%, transparent), url("banner.jpg") left 10% bottom 20%/cover no-repeat border-box padding-box, #0B1128;
     /* background-image: url("banner.jpg");
     background-size: cover  ;
     background-position: left 10% bottom 20%; */
@@ -12,7 +16,7 @@
     /* background-image: linear-gradient(180deg, red, transparent); */
     /* background-image: radial-gradient(ellipse farshest-side at 20% 50%, red, transparent); */
     width: 100vw;
-    height: 800px;
+    height: 1000px;
     /* padding: 2.75rem; */
     /* border: 5px dashed red; */
     position: relative;
@@ -50,10 +54,10 @@ BACKGROUND-POSITION: 20PX */
 }
 
 #descripcion-producto h1 {
+    max-width: 56rem;
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 8rem;
-    margin-bottom: 2rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 6rem;
     /* position: relative; */
     /* text-align: right; */
     /* margin-top: 6.2rem; */
@@ -61,18 +65,19 @@ BACKGROUND-POSITION: 20PX */
     /* margin-bottom: 0; */
     /* float: right; */
     /* text-align: right; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .descripcion-subtitulo {
     color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     text-align: right;
-    /* margin-top: 0.6rem; */
-    /* margin-right: 2.5rem;
-    margin-bottom: 0; */
-    /* float: right; */
-    text-align: right;
+    max-width: 30rem;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    line-height: 2rem;
 }
 
 .button-titulo {
@@ -101,11 +106,10 @@ BACKGROUND-POSITION: 20PX */
 /* ---------------BODY----------------- */
 
 .clear {
-    width: 100vw;
+    width: 80vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
 }
 
 .clear {
@@ -115,7 +119,14 @@ BACKGROUND-POSITION: 20PX */
 .clear_title {
     text-align: center;
     flex-direction: column;
-    padding: 0 6rem;
+    /* padding: 0 6rem; */
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -126,22 +137,29 @@ BACKGROUND-POSITION: 20PX */
     margin-bottom: 120px;
 } */
 
-.creativo {
-    width: 100vw;
-    padding: 10rem;
+
+/* ---------------------YHEZ ESTUDIO---------------- */
+
+#estudio {
+    /* padding: 2rem; */
     display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 6rem 8rem;
+}
+
+.creativo {
+    display: flex;
+    justify-content: left;
     align-items: center;
 }
 
 .creativo__contenedor {
-    width: 30rem;
+    /* background-color: #eee; */
+    /* border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2); */
+    width: 50rem;
     padding: 2rem;
-}
-
-@media screen and ( max-width: 20rem) {
-    .creativo__contenedor {
-        width: 20%;
-    }
 }
 
 .estudio-pre-titulo {
@@ -150,16 +168,22 @@ BACKGROUND-POSITION: 20PX */
 }
 
 .estudio-titulo {
+    font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 0%;
 }
 
 .estudio-titulo-2 {
+    font-size: 5rem;
     margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .estudio-parrafo {
     font-weight: 100;
+    max-width: 40rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .estudio-boton {
@@ -175,19 +199,64 @@ BACKGROUND-POSITION: 20PX */
     width: 150px;
 }
 
+.estudio-boton:hover,
+.estudio-boton:active {
+    background: white;
+    color: #e63958;
+}
+
+@media screen and ( max-width: 20rem) {
+    .creativo__contenedor {
+        width: 20%;
+    }
+}
+
+
+/* .creativo-img {
+    background-image: url(/imagenes/estudio-inicio.jpg);
+    width: 498px;
+    height: 300px;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+} */
+
+
+/* .creativo__contenedor {
+    margin: 4rem 0;
+} */
+
+
+/* ---------------------PERFIL PERSONAL---------------- */
+
+#perfil {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 6rem 8rem;
+    /* gap: 12rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: left;
+    padding: 6rem 8rem; */
+}
+
 .personal {
     width: 100vw;
     height: auto;
-    padding: 10rem;
     background-color: #f4f4f4;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     /* margin-bottom: 6.2rem; */
 }
 
 .personal__contenedor {
-    width: 30rem;
+    width: 50rem;
     padding: 2rem;
+    /* background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2); */
 }
 
 
@@ -205,19 +274,24 @@ BACKGROUND-POSITION: 20PX */
 }
 
 .perfil-titulo {
+    font-size: 2.5rem;
     font-weight: 400;
     /* margin-left: 200px; */
     margin-bottom: 0%;
 }
 
 .perfil-titulo-2 {
+    font-size: 5rem;
     margin-top: 0%;
+    margin-bottom: 0;
     /* margin-left: 200px; */
 }
 
 .perfil-parrafo {
     font-weight: 100;
-    /* margin-left: 200px; */
+    max-width: 40rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .perfil-boton {
@@ -234,14 +308,21 @@ BACKGROUND-POSITION: 20PX */
     width: 150px;
 }
 
+.perfil-boton:hover,
+.perfil-boton:active {
+    background: white;
+    color: #e63958;
+}
+
+
+/* ---------------PORTAFOLIO-------------- */
+
 .master_portafolio {
     background-color: #f4f4f4;
-    padding-bottom: 6rem;
 }
 
 .portafolio {
     width: 100%;
-    padding: 6rem 10rem;
 }
 
 
@@ -255,43 +336,118 @@ BACKGROUND-POSITION: 20PX */
 }
 
 .portafolio-titulo {
+    font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 0%;
 }
 
 .portafolio-titulo-2 {
+    font-size: 5rem;
     margin-top: 0%;
-    margin-bottom: 10%;
 }
 
-.contenedor__imagen {
-    padding: 0;
-    width: 100%;
+.portafolio__contenedor {
+    display: block;
+    padding: 6rem 6rem 2rem 10rem;
 }
 
-.portafolio__imagen {
-    display: inline-block;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-}
-
-.idea {
-    width: 45%;
-    margin: 1rem;
-    margin-bottom: 8rem;
-}
-
-
-/* ----------------------PREGUNTAR COMO CENTRAR VERTICALMENTE -----------------------------*/
-
-#planes {
-    padding: 2rem;
+.portafolio__imagenes {
+    width: 100vw;
+    padding-bottom: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+
+.imagen {
+    background-image: url(imagenes/casa_lira.jpg);
+    padding: 25rem 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.imagen2 {
+    background-image: url(imagenes/chupiraymi-portada.jpg);
+    padding: 25rem 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.imagen3 {
+    background-image: url(imagenes/miraflores.jpg);
+    padding: 25rem 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.contenedor__imagenes {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contenedor__imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contenedor__img {
+    background-color: white;
+    max-width: 25rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+}
+
+.contenido h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1%;
+    color: #e63958;
+}
+
+.contenido p {
+    margin-top: 0%;
+}
+
+
+/* .contenedor__imagen {
+    padding: 0;
+    width: 100%;
+} */
+
+
+/* .portafolio__imagen {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+} */
+
+
+/* .idea {
+    width: 45%;
+    margin: 1rem;
+    margin-bottom: 8rem;
+} */
+
+
+/* ----------------------PREGUNTAR COMO CENTRAR VERTICALMENTE -----------------------------*/
+
+
+/* #planes {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
 
 .plan__list {
     width: 100%;
@@ -313,6 +469,11 @@ BACKGROUND-POSITION: 20PX */
     transition: all .2s ease-out;
     /* max-width: 25rem;
     min-width: 25rem; */
+}
+
+.sección-título {
+    font-size: 4rem;
+    color: black;
 }
 
 
@@ -348,6 +509,14 @@ BACKGROUND-POSITION: 20PX */
         width: 90%;
     }
 }
+
+
+/* #nuestro {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+} */
 
 
 /* CSS PLAN RECOMENDADO */

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>uHost</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -62,11 +62,13 @@
     </nav>
     <main class="main">
         <section class="clear" id="descripcion-producto">
-            <div class="clear clear_title">
-                <h1>DISEÑO GRÁFICO</h1>
+            <div class="top">
+                <div class="clear_title">
+                    <h1>TRAEMOS AL PAPEL TUS IDEAS</h1>
+                </div>
                 <div>
                     <p class="descripcion-subtitulo">
-                        AMAMOS LO QUE HACEMOS
+                        “Aprender el Word no te hace escritor, al igual que aprender Photoshop no te hace diseñador”
                     </p>
                 </div>
             </div>
@@ -74,17 +76,21 @@
                 <button class="button-titulo">DESCUBRE</button>
             </div> -->
         </section>
-        <section id="estudio" class="creativo">
-            <div class="creativo__contenedor">
-                <h5 class="estudio-pre-titulo">ACERCA DE</h5>
-                <h1 class="estudio-titulo">YHEZ ESTUDIO</h1>
-                <h2 class="estudio-titulo-2">CREATIVO</h2>
-                <p class="estudio-parrafo">¡Hola! Me llamo Yhesling y Yhez Estudio Creativo es mi taller de diseño gráfico, un estudio que se dedica al desarrollo de piezas visuales…</p>
-                <button class="estudio-boton">VER AHORA</button>
+        <section id="estudio">
+            <div class="creativo">
+                <div class="creativo__contenedor">
+                    <h5 class="estudio-pre-titulo">ACERCA DE</h5>
+                    <h1 class="estudio-titulo">YHEZ ESTUDIO</h1>
+                    <h2 class="estudio-titulo-2">CREATIVO</h2>
+                    <p class="estudio-parrafo">¡Hola! Me llamo Yhesling y Yhez Estudio Creativo es mi taller de diseño gráfico, un estudio que se dedica al desarrollo de piezas visuales…</p>
+                    <button class="estudio-boton">VER AHORA</button>
+                </div>
+                <div class="creativo-img">
+                    <div class="creativo-imagen">
+                        <!-- <img src="../imagenes/estudio-inicio.jpg" alt="imagen - inicio" class="image_inicio"> -->
+                    </div>
+                </div>
             </div>
-            <!-- <div>
-                <img src="../imagenes/estudio-inicio.jpg" alt="imagen - inicio" class="image_inicio">
-            </div> -->
         </section>
         <section id="perfil" class="personal">
             <div class="personal__contenedor">
@@ -102,7 +108,7 @@
             <div class="plan__list">
                 <article class="plan">
                     <h1 class="plan__title">BRANDING</h1>
-                    <p class="parrafo-definicion">El branding es el proceso de definición y construcción de una marca mediante la gestión planificada de todos los procesos gráficos, comunicacionales y de posicionamiento que se llevan a cabo.</p>
+                    <p class="parrafo-definicion">El branding es el proceso de definición y de construcción de una marca mediante la gestión planificada de todos los procesos gráficos, comunicacionales y de posicionamiento que se llevan a cabo.</p>
                     <!-- <h2 class="plan__price">$0/Mes</h2>
                     <h3>For hobby projects</h3> -->
                     <!-- <ul class="plan__features">
@@ -151,18 +157,74 @@
         <section class="master_portafolio">
             <section id="nuestro" class="portafolio">
                 <div class="portafolio__contenedor">
-                    <h5 class="portafolio-pre-titulo">NUESTRO</h5>
+                    <h5 class="portafolio-pre-titulo">ACERCA DE</h5>
                     <h1 class="portafolio-titulo">PORTAFOLIO</h1>
                     <h2 class="portafolio-titulo-2">CREATIVO</h2>
                 </div>
-                <div class="contenedor__imagen">
-                    <div class="portafolio__imagen">
-                        <img src="imagenes/casa_lira.jpg" alt="Lira" class="idea">
-                        <img src="imagenes/chupiraymi-portada.jpg" alt="Chupiraymi" class="idea">
-                        <img src="imagenes/miraflores.jpg" alt="Miraflores" class="idea">
-                        <img src="imagenes/cañari.jpg" alt="Cañari" class="idea">
+                <div class="portafolio__imagenes">
+                    <div class="contenedor__imagenes">
+                        <div class="contenedor__imagen">
+                            <div class="contenedor__img">
+                                <div class="imagen">
+                                    <!-- <img src="imagenes/casa_lira.jpg" alt="Lira"> -->
+                                </div>
+                                <div class="contenido">
+                                    <h4>CASA DE LA LIRA</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="contenedor__img">
+                                <div class="imagen2">
+                                    <!-- <img src="imagenes/chupiraymi-portada.jpg" alt="Chupiraymi"> -->
+                                </div>
+                                <div class="contenido">
+                                    <h4>CHUPIRAYMI</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="contenedor__img">
+                                <div class="imagen3">
+                                    <!-- <img src="imagenes/miraflores.jpg" alt="Miraflores"> -->
+                                </div>
+                                <div class="contenido">
+                                    <h4>PARQUE MIRAFLORES</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <!-- <div class="contenedor__img">
+                                <div class="imagen">
+                                   
+                                </div>
+                                <div class="contenido">
+                                    <h4>CCULTURA CAÑARI</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div> -->
+                        </div>
                     </div>
                 </div>
+                <!-- <div class="contenedor__imagen">
+                    <div class="portafolio__imagen">
+                        <div>
+                            <div>
+                                <img src="imagenes/casa_lira.jpg" alt="Lira" class="idea">
+                            </div>
+                            <div>
+                                <h4>CASA DE LA LIRA</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="imagenes/chupiraymi-portada.jpg" alt="Chupiraymi" class="idea">
+                        </div>
+                        <div>
+                            <img src="imagenes/miraflores.jpg" alt="Miraflores" class="idea">
+                        </div>
+                        <div>
+                            <img src="imagenes/cañari.jpg" alt="Cañari" class="idea">
+                        </div>
+                    </div>
+                </div> -->
 
             </section>
         </section>
