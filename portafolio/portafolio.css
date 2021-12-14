@@ -1,38 +1,69 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #banner-portafolio {
-    background: linear-gradient(to top, rgba(11, 12, 15, 0.6) 10%, transparent), url("/imagenes/banner-portafolio.jpg") left 10% bottom 20%/cover no-repeat border-box padding-box, #0B1128;
+    background: linear-gradient(to top, rgba(0, 22, 40, .6) 10%, transparent), url("/imagenes/banner-portafolio.jpg") left 10% bottom 20%/cover no-repeat border-box padding-box, #0B1128;
     width: 100vw;
-    height: 600px;
+    height: 1000px;
     padding: 2.75rem;
     position: relative;
 }
 
 #banner-portafolio h1 {
     color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: 6.2rem;
-    position: relative;
+    max-width: 56rem;
+    /* position: relative;
     text-align: right;
     margin-top: 6.2rem;
     margin-right: 2.5rem;
     margin-bottom: 0;
     float: right;
-    text-align: right;
+    text-align: right; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .descripcion-subtitulo {
     color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
-    text-align: right;
+    max-width: 56rem;
+    /* text-align: right;
     margin-top: 0.6rem;
     margin-right: 2.5rem;
     margin-bottom: 0;
     float: right;
-    text-align: right;
+    text-align: right; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.clear {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clear {
     clear: both;
+}
+
+.clear_title {
+    text-align: center;
+    flex-direction: column;
+    /* padding: 0 6rem; */
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .proyecto {
