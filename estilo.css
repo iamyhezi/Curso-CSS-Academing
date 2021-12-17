@@ -4,6 +4,9 @@ body {
 
 #descripcion-producto {
     background: linear-gradient(to top, rgba(0, 22, 40, .6) 10%, transparent), url("banner.jpg") left 10% bottom 20%/cover no-repeat border-box padding-box, #0B1128;
+    width: 100vw;
+    height: 1000px;
+    position: relative;
     /* background-image: url("banner.jpg");
     background-size: cover  ;
     background-position: left 10% bottom 20%; */
@@ -15,11 +18,8 @@ body {
     /* background-image: linear-gradient(180deg, red, blue, green, yellow); */
     /* background-image: linear-gradient(180deg, red, transparent); */
     /* background-image: radial-gradient(ellipse farshest-side at 20% 50%, red, transparent); */
-    width: 100vw;
-    height: 1000px;
     /* padding: 2.75rem; */
     /* border: 5px dashed red; */
-    position: relative;
 }
 
 
@@ -43,21 +43,14 @@ BACKGROUND-SIZE: COVER
 BACKGROUND-POSITION: LEFT BOTTOM
 BACKGROUND-POSITION: 20PX */
 
-.sección-título {
-    color: #333333;
-    /* text-align: center; */
-}
-
-.sección {
-    display: flex;
-    justify-content: center;
-}
-
 #descripcion-producto h1 {
     max-width: 56rem;
     color: white;
-    /* font-family: 'Montserrat', sans-serif; */
     font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Montserrat', sans-serif; */
     /* position: relative; */
     /* text-align: right; */
     /* margin-top: 6.2rem; */
@@ -65,9 +58,6 @@ BACKGROUND-POSITION: 20PX */
     /* margin-bottom: 0; */
     /* float: right; */
     /* text-align: right; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .descripcion-subtitulo {
@@ -90,9 +80,6 @@ BACKGROUND-POSITION: 20PX */
     font-weight: bold;
     cursor: pointer;
 }
-
-
-/* RENE ME PODRIAS AYUDAR CON LA FORMA CORRECTA DE ALINEAR UN BOTON A LA DERECHA (SE QUE ESTA NO ES) */
 
 
 /* .button-titulo {
@@ -244,10 +231,10 @@ BACKGROUND-POSITION: 20PX */
 .personal {
     width: 100vw;
     height: auto;
-    background-color: #f4f4f4;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #f4f4f4;
     /* margin-bottom: 6.2rem; */
 }
 
@@ -315,6 +302,77 @@ BACKGROUND-POSITION: 20PX */
 }
 
 
+/* ---------------------NUESTROS SERVICIOS---------------- */
+
+.sección-título {
+    color: #333333;
+    font-size: 4rem;
+    /* text-align: center; */
+}
+
+.sección {
+    display: flex;
+    justify-content: center;
+}
+
+.plan__list {
+    width: 100%;
+    height: 100%;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan {
+    max-width: 24rem;
+    background-color: #494949;
+    flex-basis: 100%;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    transition: all .2s ease-out;
+}
+
+.plan__title {
+    color: white;
+}
+
+.plan__price {
+    color: white;
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price {
+    color: white;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.parrafo-definicion {
+    color: white;
+}
+
+.plan:hover {
+    transform: scale(1.06);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, .2);
+    background-color: #343434;
+}
+
+
 /* ---------------PORTAFOLIO-------------- */
 
 .master_portafolio {
@@ -324,11 +382,6 @@ BACKGROUND-POSITION: 20PX */
 .portafolio {
     width: 100%;
 }
-
-
-/* .portafolio__contenedor {
-    max-width: 100%;
-} */
 
 .portafolio-pre-titulo {
     font-weight: 100;
@@ -449,36 +502,6 @@ BACKGROUND-POSITION: 20PX */
     flex-direction: column;
 } */
 
-.plan__list {
-    width: 100%;
-    height: 100%;
-    padding: 6rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.plan {
-    background-color: #494949;
-    flex-basis: 100%;
-    margin: 2rem;
-    padding: 2rem;
-    max-width: 24rem;
-    border-radius: .5rem;
-    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
-    transition: all .2s ease-out;
-    /* max-width: 25rem;
-    min-width: 25rem; */
-}
-
-.sección-título {
-    font-size: 4rem;
-    color: black;
-}
-
-
-/* CSS APLICADO A TODOS LOS RECUADROS DE LOS PLANES */
-
 
 /* ------------- CAMBIO DE CODIGO ----------- */
 
@@ -540,43 +563,6 @@ BACKGROUND-POSITION: 20PX */
     border-radius: 2rem;
 } */
 
-.plan__title {
-    color: white;
-}
-
-.plan__price {
-    color: white;
-}
-
-.plan--highlighted .plan__title {
-    color: white;
-}
-
-.plan--highlighted .plan__price {
-    color: white;
-}
-
-.plan__features {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.plan__feature {
-    color: white;
-    margin: 0.5rem 0;
-}
-
-.parrafo-definicion {
-    color: white;
-}
-
-.plan:hover {
-    transform: scale(1.06);
-    box-shadow: 0 6px 6px rgba(0, 0, 0, .2);
-    background-color: #343434;
-}
-
 #key-features {
     background: #ff1b68;
     margin-top: 5rem;
@@ -623,11 +609,6 @@ BACKGROUND-POSITION: 20PX */
     color: white;
     font-size: 1.2rem;
 }
-
-
-/* h1 {
-    font-family: sans-serif;
-} */
 
 .modal {
     position: fixed;
