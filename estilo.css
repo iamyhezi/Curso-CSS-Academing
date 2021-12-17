@@ -320,8 +320,8 @@ BACKGROUND-POSITION: 20PX */
     height: 100%;
     padding: 6rem 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 .plan {
@@ -447,8 +447,11 @@ BACKGROUND-POSITION: 20PX */
 
 .contenedor__imagen {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     gap: 2rem;
 }
 
