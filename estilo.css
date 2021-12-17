@@ -43,6 +43,9 @@ BACKGROUND-SIZE: COVER
 BACKGROUND-POSITION: LEFT BOTTOM
 BACKGROUND-POSITION: 20PX */
 
+
+/* ------------------CONTENIDO BANNER ---------------- */
+
 #descripcion-producto h1 {
     max-width: 56rem;
     color: white;
@@ -66,8 +69,8 @@ BACKGROUND-POSITION: 20PX */
     text-align: right;
     max-width: 30rem;
     text-align: center;
-    /* letter-spacing: 1px; */
     line-height: 2rem;
+    /* letter-spacing: 1px; */
 }
 
 .button-titulo {
@@ -106,7 +109,6 @@ BACKGROUND-POSITION: 20PX */
 .clear_title {
     text-align: center;
     flex-direction: column;
-    /* padding: 0 6rem; */
 }
 
 .top {
@@ -116,19 +118,14 @@ BACKGROUND-POSITION: 20PX */
     align-items: center;
 }
 
-
-/* #estudio {
-    width: 30%;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-bottom: 120px;
-} */
+.btn {
+    text-align: center;
+}
 
 
 /* ---------------------YHEZ ESTUDIO---------------- */
 
 #estudio {
-    /* padding: 2rem; */
     display: flex;
     justify-content: left;
     align-items: center;
@@ -142,9 +139,6 @@ BACKGROUND-POSITION: 20PX */
 }
 
 .creativo__contenedor {
-    /* background-color: #eee; */
-    /* border-radius: 0.5rem;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2); */
     width: 50rem;
     padding: 2rem;
 }
@@ -192,12 +186,6 @@ BACKGROUND-POSITION: 20PX */
     color: #e63958;
 }
 
-@media screen and ( max-width: 20rem) {
-    .creativo__contenedor {
-        width: 20%;
-    }
-}
-
 
 /* .creativo-img {
     background-image: url(/imagenes/estudio-inicio.jpg);
@@ -235,35 +223,20 @@ BACKGROUND-POSITION: 20PX */
     justify-content: space-between;
     align-items: center;
     background-color: #f4f4f4;
-    /* margin-bottom: 6.2rem; */
 }
 
 .personal__contenedor {
     width: 50rem;
     padding: 2rem;
-    /* background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2); */
 }
-
-
-/* @media screen and ( max-width: 50rem) {
-    .personal__contenedor {
-        width: 90%;
-    }
-} */
 
 .perfil-pre-titulo {
     font-weight: 100;
-    /* margin-top: 100px;
-    margin-left: 200px;
-    margin-bottom: 30px; */
 }
 
 .perfil-titulo {
     font-size: 2.5rem;
     font-weight: 400;
-    /* margin-left: 200px; */
     margin-bottom: 0%;
 }
 
@@ -271,7 +244,6 @@ BACKGROUND-POSITION: 20PX */
     font-size: 5rem;
     margin-top: 0%;
     margin-bottom: 0;
-    /* margin-left: 200px; */
 }
 
 .perfil-parrafo {
@@ -287,12 +259,12 @@ BACKGROUND-POSITION: 20PX */
     font: inherit;
     border: 1.5px solid #e63958;
     margin-top: 1.8rem;
-    /* margin-left: 200px; */
     padding: 0.5rem;
     border-radius: 1.2rem;
     font-weight: bold;
     cursor: pointer;
     width: 150px;
+    /* margin-left: 200px; */
 }
 
 .perfil-boton:hover,
@@ -307,7 +279,6 @@ BACKGROUND-POSITION: 20PX */
 .sección-título {
     color: #333333;
     font-size: 4rem;
-    /* text-align: center; */
 }
 
 .sección {
@@ -317,18 +288,17 @@ BACKGROUND-POSITION: 20PX */
 
 .plan__list {
     width: 100%;
-    height: 100%;
     padding: 6rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
 }
 
 .plan {
     max-width: 24rem;
     background-color: #494949;
     flex-basis: 100%;
-    margin: 2rem;
     padding: 2rem;
     border-radius: .5rem;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
@@ -337,6 +307,7 @@ BACKGROUND-POSITION: 20PX */
 
 .plan__title {
     color: white;
+    text-align: center;
 }
 
 .plan__price {
@@ -473,12 +444,6 @@ BACKGROUND-POSITION: 20PX */
 }
 
 
-/* .contenedor__imagen {
-    padding: 0;
-    width: 100%;
-} */
-
-
 /* .portafolio__imagen {
     display: inline-block;
     margin: 0 auto;
@@ -494,65 +459,7 @@ BACKGROUND-POSITION: 20PX */
 } */
 
 
-/* ----------------------PREGUNTAR COMO CENTRAR VERTICALMENTE -----------------------------*/
-
-
-/* #planes {
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
-
-
 /* ------------- CAMBIO DE CODIGO ----------- */
-
-
-/* .plan__list {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-} */
-
-
-/* .plan {
-    background-color: #494949;
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    padding: 2rem;
-    box-sizing: border-box;
-    margin: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 30px;
-    margin-bottom: 6.2rem;
-} */
-
-@media screen and ( max-width: 60rem) {
-    .plan {
-        width: 90%;
-    }
-}
-
-
-/* #nuestro {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: column;
-} */
-
-
-/* CSS PLAN RECOMENDADO */
-
-
-/* .plan--highlighted {
-    background: #292929;
-    color: white;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-} */
 
 
 /* BOX-SHADOW Usado para generar sombra en la caja */
@@ -565,6 +472,12 @@ BACKGROUND-POSITION: 20PX */
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2rem;
 } */
+
+
+/* Convertimos en elementos "inline-block" para ser más precisos */
+
+
+/* VERTICAL-ALIGN TOP Ajusta el texto con el borde superior */
 
 #key-features {
     background: #ff1b68;
@@ -583,12 +496,6 @@ BACKGROUND-POSITION: 20PX */
     padding: 0;
     text-align: center;
 }
-
-
-/* Convertimos en elementos "inline-block" para ser más precisos */
-
-
-/* VERTICAL-ALIGN TOP Ajusta el texto con el borde superior */
 
 .key-feature {
     display: inline-block;
